@@ -36,5 +36,5 @@ USER kali
 WORKDIR /home/kali
 ENV PASSWORD=kalilinux
 ENV SHELL=/bin/bash
-EXPOSE 8080
+EXPOSE 3000
 ENTRYPOINT ["/bin/bash", "/startup.sh"]
